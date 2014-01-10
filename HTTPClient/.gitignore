@@ -1,8 +1,0 @@
-.DS_Store
-tmp
-.settings
-build/iphone/*
-build/android/*
-!build/iphone/.gitignore
-!build/android/.gitignore
-
