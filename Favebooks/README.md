@@ -2,14 +2,11 @@ Sample application for ["Favebooks"](http://docs.appcelerator.com/titanium/lates
 
 To import this application into Studio:
 
-**To import from GitHub**:
-
-
 **To import from the file system**:
 1. Clone the Documentation-Samples GitHub repository.
-1. Select **File > Import...**.
-2. In the Import dialog select **Existing Mobile Project** from the Titanium (or Studio) folder and click **Next**.
-3. Browse to folder containing the project and click Finish.
+2. Select **File > Import...**.
+3. In the Import dialog select **Existing Mobile Project** from the Titanium (or Studio) folder and click **Next**.
+4. Browse to folder containing the project and click Finish.
 
 ----------------------------------
 Stuff our legal folk make us say:
