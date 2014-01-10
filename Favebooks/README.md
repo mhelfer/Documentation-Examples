@@ -1,6 +1,4 @@
-Sample application for ["Favebooks"](http://docs.appcelerator.com/titanium/latest/#!/guide/Creating_Your_First_Titanium_Apps) tutorial. 
-
-To import this application into Studio:
+Sample application for [Favebooks](http://docs.appcelerator.com/titanium/latest/#!/guide/Creating_Your_First_Titanium_Apps) tutorial on [docs.appcelerator.com](http://docs.appcelerator.com). To import this application into Titanium or Appcelerator Studio:
 
 **To import from the file system**:
 
