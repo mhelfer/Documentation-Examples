@@ -1,0 +1,15 @@
+"#titleLabel": {
+    font: {
+        fontSize: '30'
+    },
+    left: '10'
+},
+"#authorLabel": {
+    font: {
+        fontSize: '20'
+    },
+    left: '10'
+},
+".container" : { 
+   backgroundColor: 'white' 
+}
