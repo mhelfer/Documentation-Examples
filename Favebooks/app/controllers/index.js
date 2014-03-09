@@ -1,4 +1,5 @@
 var myBooks = Alloy.Collections.books;
+myBooks.fetch();
 var book = Alloy.createModel('books', {
 	title : 'Great Expectations',
 	author : 'Charles Dickens'
