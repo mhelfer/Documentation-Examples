@@ -2,8 +2,8 @@
     <Collection src="books"/>
     <Window class="container">
         <!-- Add TableView and  TableViewRow -->
-        <TableView dataCollection="books">
-            <TableViewRow title="{title}" author="{author}" onClick="showBook"></TableViewRow>
+        <TableView dataCollection="books" onSingletap="showBook" onLongclick="deleteBook">
+            <TableViewRow title="{title}" author="{author}" color="black"></TableViewRow>
         </TableView>
         <!-- Android menu for 'Add book' button. -->
         <Menu id="menu" platform="android">

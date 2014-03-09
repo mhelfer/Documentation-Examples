@@ -1,8 +1,8 @@
 <Alloy>
     <Window class="container">
         <View layout="vertical">
-            <TextField id="titleInput" hintText="Title..."></TextField>
-            <TextField id="authorInput" hintText="Author..."></TextField>
+            <TextField id="titleInput" hintText="Title..." color="black"></TextField>
+            <TextField id="authorInput" hintText="Author..." color="black"></TextField>
             <Button id="insertBookButton" onClick="addBookToCollection">Add</Button>
         </View>
     </Window>

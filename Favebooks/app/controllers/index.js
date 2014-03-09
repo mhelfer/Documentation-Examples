@@ -1,4 +1,5 @@
 var myBooks = Alloy.Collections.books;
+myBooks.fetch();
 var book = Alloy.createModel('books', {
 	title : 'Great Expectations',
 	author : 'Charles Dickens'
@@ -21,6 +22,24 @@ function showBook(event) {
         bookview.open();
     }
 }
+
+function deleteBook(event) {
+    var alertDialog = Titanium.UI.createAlertDialog({
+        title: 'Remove',
+        message: 'Do you want to remove this row?',
+        buttonNames: ['Yes','No'],
+        cancel: 1
+    });
+    alertDialog.show();
+    
+    alertDialog.addEventListener('click', function(e){
+        // YES
+        if(e.index == 0) {
+            var selectedBook = event.source;
+            myBooks.at(event.index).destroy();
+        }
+    });
+} 
 
 function addBook(){
     var myAddBook = Alloy.createController("addbook",{}).getView();
